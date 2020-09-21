@@ -1,6 +1,6 @@
 # Starwars-Redux
 
-This app features the star wars API where users can filter out a character via search, add certain characters to their roster, and submit them. This app features Redux. The API is being handled by Redux using redux-thunk. I used react-reveal for the animations! Pretty simple app to showcase knowledge of React and Redux together. 
+This app features the star wars API where users can filter out a character via search, add certain characters to their roster, and submit them. This app features Redux. The API is being handled by Redux using redux-thunk. I used react-reveal for the animations and styled components for styling. It also includes Bootstrap as well. Pretty simple app to showcase knowledge of React and Redux together. 
 
 This app features the latest React Hooks. 
 
