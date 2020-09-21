@@ -21,7 +21,17 @@ const StarWarsList = ({ characters, filterCharacters, term }) => {
                 >
                     <Card
                         className="media"
-                        onClick={() => setPeople([...people, character.name])}
+                        onClick={() => {
+                            addToast(
+                                `${character.name} has been added to the roster!`,
+                                {
+                                    appearance: 'success',
+                                    autoDismiss: true,
+                                }
+                            );
+
+                            setPeople([...people, character.name]);
+                        }}
                     >
                         <div className="avatar-container">
                             <Avatar
