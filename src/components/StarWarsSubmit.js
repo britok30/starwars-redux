@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { useToasts } from 'react-toast-notifications';
 import { v4 as uuidv4 } from 'uuid';
 import Fade from 'react-reveal';
+import Footer from './Footer';
 
 const StarWarsSubmit = ({ people, setPeople }) => {
     const { addToast } = useToasts();
@@ -44,6 +45,7 @@ const StarWarsSubmit = ({ people, setPeople }) => {
                     Submit
                 </Button>
             </SubmitCard>
+            <Footer />
         </div>
     );
 };
