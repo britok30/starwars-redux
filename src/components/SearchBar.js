@@ -39,7 +39,7 @@ const SearchBar = (props) => {
                 <Input
                     className="form-control"
                     type="search"
-                    placeholder="Search"
+                    placeholder="Search for characters.."
                     aria-label="Search"
                     value={searchTerm}
                     onChange={(e) => {
